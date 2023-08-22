@@ -1,0 +1,14 @@
+@use 'base/variables' as v;
+
+.footer{
+    
+    padding-top: 5rem;
+
+
+    &__copyright{
+        padding: .5rem;
+        text-align: center;
+        border-top: 1px solid darken(v.$grisClaro, 5%);
+       
+    }
+}
